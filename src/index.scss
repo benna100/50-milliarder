@@ -1,0 +1,132 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2f2f2f;
+}
+
+h1 { line-height: 2.8rem; }
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+
+img { width: 100%; }
+
+main {
+    text-align: center;
+    line-height: 2.1rem;
+    max-width: 500px;
+    margin: 24px auto;
+    width: calc(100% - 24px);
+
+    & > p { margin-bottom: 48px; }
+
+    section { margin-bottom: 48px; }
+
+    ul, li {
+        list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    
+        & li {
+            width: 10px;
+            height: 10px;
+            background-color: blue;
+            margin-bottom: 10px;
+            background-size: cover;
+            background-size: contain;
+            background-color: inherit;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
+
+
+.kebab li {
+    background-image: url('../images/kebab.png');
+    width: 40px;
+    height: 40px;
+    background-size: 36px;
+}
+
+.iphone li {
+    background-image: url('../images/iphone.png');
+    width: 20px;
+    height: 20px;
+}
+
+.boat li {
+    background-image: url('../images/boat.png');
+    width: 30px;
+    height: 30px;
+}
+
+.tesla li {
+    background-image: url('../images/tesla.png');
+    width: 30px;
+    height: 30px;
+    background-size: 26px;
+}
+
+.house li {
+    background-image: url('../images/house.png');
+    width: 70px;
+    height: 70px;
+    background-size: 60px;
+}
+
+.house2 li {
+    background-image: url('../images/house.png');
+    width: 20px;
+    height: 20px;
+    background-size: 16px;
+}
+
+.tesla2 li {
+    background-image: url('../images/tesla.png');
+    width: 30px;
+    height: 30px;
+}
+
+.remaining {
+    
+    .rest { 
+        margin-bottom: 36px; 
+    
+        li {
+            width: 50px;
+            height: 50px;
+            background-position: center;
+
+            &.kebab { background-image: url('../images/kebab.png'); }
+    
+            &.iphone { background-image: url('../images/iphone.png');}
+            
+            &.boat { background-image: url('../images/boat.png'); }
+            
+            &.tesla { background-image: url('../images/tesla.png'); }
+        }
+    }
+    
+    ul.spandauer { justify-content: center; }
+
+    ul.spandauer li {
+        background-image: url('../images/spandauer.png');
+        max-width: 400px;
+        width: 100%;
+        height: 230px;
+        background-size: contain;
+    }
+}
+
+.outro {
+    margin-bottom: 50px;
+}
+
