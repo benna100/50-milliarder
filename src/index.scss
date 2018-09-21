@@ -8,7 +8,6 @@ h1 { line-height: 2.8rem; }
 p {
     font-size: 1.5rem;
     line-height: 2.3rem;
-    font-weight: 700;
 }
 
 img { width: 100%; }
@@ -97,25 +96,28 @@ main {
 }
 
 .remaining {
-    & li {
-        width: 50px;
-        height: 50px;
-        background-position: center;
+    
+    .rest { 
+        margin-bottom: 36px; 
+    
+        li {
+            width: 50px;
+            height: 50px;
+            background-position: center;
+
+            &.kebab { background-image: url('../images/kebab.png'); }
+    
+            &.iphone { background-image: url('../images/iphone.png');}
+            
+            &.boat { background-image: url('../images/boat.png'); }
+            
+            &.tesla { background-image: url('../images/tesla.png'); }
+        }
     }
+    
+    ul.spandauer { justify-content: center; }
 
-    &.kebab { background-image: url('../images/kebab.png'); }
-
-    &.iphone { background-image: url('../images/iphone.png');}
-    
-    &.boat { background-image: url('../images/boat.png'); }
-    
-    &.tesla { background-image: url('../images/tesla.png'); }
-    
-    & .rest { margin-bottom: 36px; }
-    
-    & ul.spandauer { justify-content: center; }
-
-    & ul.spandauer li {
+    ul.spandauer li {
         background-image: url('../images/spandauer.png');
         max-width: 400px;
         width: 100%;

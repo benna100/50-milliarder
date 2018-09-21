@@ -50,7 +50,4 @@ document.querySelector('.remaining-percent').innerHTML = parseInt(remainingPerce
 
 updateSectionTextAndUpdateAmount(10000000, 500, 'house', remaining);
 
-const remainingPercent2 = ((total - remaining) / total) * 100;
-document.querySelector('.remaining-percent2').innerHTML = parseInt(remainingPercent2);
-
 updateSectionTextAndUpdateAmount(10000000, 4242, 'house2', remaining);

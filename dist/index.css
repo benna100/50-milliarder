@@ -7,8 +7,7 @@ h1 {
 
 p {
   font-size: 1.5rem;
-  line-height: 2.3rem;
-  font-weight: 700; }
+  line-height: 2.3rem; }
 
 img {
   width: 100%; }
@@ -81,25 +80,20 @@ main {
   width: 30px;
   height: 30px; }
 
-.remaining li {
-  width: 50px;
-  height: 50px;
-  background-position: center; }
-
-.remaining.kebab {
-  background-image: url("../images/kebab.png"); }
-
-.remaining.iphone {
-  background-image: url("../images/iphone.png"); }
-
-.remaining.boat {
-  background-image: url("../images/boat.png"); }
-
-.remaining.tesla {
-  background-image: url("../images/tesla.png"); }
-
 .remaining .rest {
   margin-bottom: 36px; }
+  .remaining .rest li {
+    width: 50px;
+    height: 50px;
+    background-position: center; }
+    .remaining .rest li.kebab {
+      background-image: url("../images/kebab.png"); }
+    .remaining .rest li.iphone {
+      background-image: url("../images/iphone.png"); }
+    .remaining .rest li.boat {
+      background-image: url("../images/boat.png"); }
+    .remaining .rest li.tesla {
+      background-image: url("../images/tesla.png"); }
 
 .remaining ul.spandauer {
   justify-content: center; }
